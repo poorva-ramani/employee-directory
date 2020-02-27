@@ -3,8 +3,8 @@ import React from "react";
 function SearchForm(props) {
   return (
     <form>
-      <div className="form-row">
-        <h5 className="col-1 text-center" htmlFor="search">Searchbox:</h5>
+      <div className="form-row" style={{margin :"10px"}}>
+        <h5 className="col-1 text-center" style={{width:"20%", marginTop :"15px"}} htmlFor="search">Search Bar:</h5>
         <input
           onChange={props.handleChange}
           value={props.filter}
